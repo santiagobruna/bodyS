@@ -1,0 +1,92 @@
+@use "reset";
+@use "variables";
+@use "./components/hero";
+@use "./components/profile_section";
+@use "./components/questions";
+@use "./components/footer";
+
+body {
+  font-family: variables.$font;
+  font-weight: 400;
+  background-color: #dddddd;
+}
+
+.header {
+  &__logo {
+    width: 60px;
+  }
+}
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .profile-section {
+    gap: 20px;
+  }
+
+  .profile-card {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .profile-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .profile-info p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Media Query para telas menores */
+@media (max-width: 1024px) {
+  .hero {
+    background-image: url("/build/images/foto.jpeg");
+    background-size: cover;
+  }
+  .story {
+    flex-direction: column; /* Coloca imagem e texto um abaixo do outro */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .story__image {
+    margin-bottom: 15px; /* Espaçamento entre imagem e texto */
+    width: 100%; /* Imagem ocupa a largura total */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  .story__contain {
+    max-width: 100%; /* Garante que o texto não ultrapasse a largura */
+  }
+
+  .profile-section {
+    gap: 15px;
+  }
+
+  .profile-info h2 {
+    font-size: 1.3rem;
+  }
+
+  .profile-info p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Transição */
+.area-1,
+.area-2,
+.area-3 {
+  visibility: hidden;
+}
+
+.animated-image {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.animated-image:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}

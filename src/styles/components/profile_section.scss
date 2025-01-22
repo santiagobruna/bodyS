@@ -1,0 +1,70 @@
+@use "variables";
+/* Container da seção do perfil */
+// .profile-contain {
+//   height: 100vh;
+// }
+.profile-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Card de perfil */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Imagem de perfil (redonda) */
+.profile-contain {
+//   height: 100vh;
+  padding: 40px 0;
+  margin-bottom: 40px;
+  background-color: #fbfbfb;
+}
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* Informações de perfil */
+.profile-info h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.btn {
+  color: #fff;
+  background-color: #2a004e;
+  border: 1px solid #2a004e;
+  &:hover {
+    color: #fff;
+    background-color: #4f0b8a;
+  }
+}
+@media (max-width: 768px) {
+    .profile-contain{
+        height: 100%;
+    }
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Academia BodyS">
+    <meta property="og:description" content="bodyS é uma academia moderna e inovadora, focada em proporcionar experiências de treino personalizadas para cada aluno. Com equipamentos de última geração e profissionais altamente capacitados">
+    <link rel="shortcut icon" href="./build/images/logo-academy.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="build/styles/main.css" />
+    <title>BodyS - a melhor academia da baixada</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./build/images/logo-academy.jpeg"
+              alt="Logo da BodyS"
+              class="header__logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#duvidas">Horários</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Planos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#plano-basic">Plano Básico</a></li>
+                  <li><a class="dropdown-item" href="#plano-premium">Plano Premium</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#plano-vip"> Plano VIP</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Pesquisar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero"></section>
+      <section class="story area-1" id="about">
+        <div class="story__image">
+          <img src="./build/images/aparelho4.jpeg" alt="Nossa academia" class="animated-image " />
+        </div>
+        <div class="story__contain">
+          <h2 class="mb-4">A História da Academia BodyS</h2>
+          <p class="fs-5 ">
+            Há 12 anos, a BodyS nasceu de um sonho simples, mas poderoso, criar
+            um espaço onde pessoas pudessem se reconectar com suas melhores
+            versões. A idealizadora, Bruna santiago, era um jovem treinador com
+            um propósito claro: transformar vidas por meio do movimento.
+          </p>
+          <p class="fs-5">
+            No início, a BodyS era um pequeno estúdio com poucos aparelhos, mas
+            com uma energia contagiante. Bruna fazia questão de conhecer cada
+            aluno pelo nome, entendendo suas histórias e desafios. Foi essa
+            abordagem humana que transformou a BodyS em um local acolhedor, onde
+            resultados não se mediam apenas em quilos perdidos, mas em confiança
+            e felicidade conquistadas.
+          </p>
+          <button type="button" class="btn px-3">Ler mais</button>
+        </div>
+      </section>
+      <section class="profile-contain area-2">
+        <h2 class="text-center">Nossas aulas</h2>
+        <div class="profile-section">
+          <div class="profile-card">
+            <div class="profile-image">
+              <img src="./build/images/class1.jpeg" alt="Imagem de perfil" />
+            </div>
+            <div class="profile-info">
+              <h2>Musculação</h2>
+              <p>
+                Desenvolva força e resistência com acesso completo às áreas de musculação. Este plano inclui o uso ilimitado de equipamentos modernos e acompanhamento profissional.
+              </p>
+              <a href="#plans" class="btn">Ver plano</a>
+            </div>
+          </div>
+          <div class="profile-card">
+            <div class="profile-image">
+              <img src="./build/images/zumba-class.jpeg" alt="Imagem de perfil zumba class" />
+            </div>
+            <div class="profile-info">
+              <h2>Zumba</h2>
+              <p>
+                Dance e mantenha a forma com aulas dinâmicas e divertidas de Zumba! Este plano é perfeito para quem deseja queimar calorias, melhorar a coordenação e se divertir.
+              </p>
+              <a href="#plans" class="btn">Ver plano</a>
+            </div>
+          </div>
+          <div class="profile-card">
+            <div class="profile-image">
+              <img src="./build/images/pilates-solo.jpeg" alt="Imagem de perfil do pilates class" />
+            </div>
+            <div class="profile-info">
+              <h2>Pilates Solo</h2>
+              <p>
+                O Pilates Solo é uma prática que foca no fortalecimento do core (região abdominal, lombar e pélvica), além de melhorar a flexibilidade, postura, equilíbrio e ajuda a prevenir lesões.
+              </p>
+              <a href="#plans" class="btn">Ver plano</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="plans-contain area-3" id="plans">
+        <h3 class="text-center mb-5">Planos BodyS</h3>
+        <div class="cards-plans d-flex justify-content-around align-items-center flex-wrap gap-5">
+          <div id="plano-basic" class="card rounded" style="width: 22rem;">
+            <img src="./build/images/plano1.JPG" class="card-img-top" alt="Imagem que contém uma foto do plano básico">
+            <div class="card-body">
+              <h5 class="card-title">Plano Básico</h5>
+              <p class="card-text">
+                Aulas incluídas:
+                <ul>
+                  <li>
+                    Musculação
+                  </li>
+                  <li>Zumba</li>
+                </ul>
+              </p>
+              <p class="card-text"> 
+                Benefícios:
+                <ul>
+                  <li>
+                    Acesso limitado à academia em horários específicos, para garantir que você aproveite o ambiente de treino sem aglomeração.
+                  </li>
+                  <li>Sem acompanhamento personalizado (não inclui personal trainer).</li>
+                </ul>
+              </p>
+              <a href="#" class="btn btn-dark">Preço: R$ 79,90/mês.</a>
+            </div>
+          </div>
+          <div class="card" id="plano-premium" style="width: 22rem;">
+            <img src="./build/images/plano2.JPG" class="card-img-top" alt="Imagem que contém uma foto do plano básico">
+            <div class="card-body">
+              <h5 class="card-title">Plano Premium</h5>
+              <p class="card-text"> 
+                Aulas incluídas:
+                <ul>
+                  <li>
+                    Musculação
+                  </li>
+                  <li>Zumba</li>
+                  <li>Pilates Solo</li>
+                </ul>
+              </p>
+              <p class="card-text"> 
+                Benefícios:
+                <ul>
+                  <li>
+                    Acesso a todas as áreas da academia e aulas em grupo.
+                  </li>
+                  <li>Personalização básica do treino</li>
+                  <li>Acompanhamento pontual com instrutores, mas sem personal trainer dedicado</li>
+                </ul>
+              </p>
+              <a href="#" class="btn btn-dark">Preço: R$ 149,90/mês.</a>
+            </div>
+          </div>
+          <div class="card" id="plano-vip" style="width: 22rem;">
+            <img src="./build/images/plano3.JPG" class="card-img-top" alt="Imagem que contém uma foto do plano básico">
+            <div class="card-body">
+              <h5 class="card-title">Plano Vip</h5>
+              <p class="card-text"> 
+                Aulas incluídas:
+                <ul>
+                  <li>
+                    Musculação
+                  </li>
+                  <li>Zumba</li>
+                  <li>Pilates Solo</li>
+                </ul>
+              </p>
+              <p class="card-text">
+                  Benefícios:
+                  <ul>
+                    <li>
+                      Acesso irrestrito à academia, incluindo horários mais exclusivos e com menos movimento.
+                    </li>
+                    <li>Benefícios adicionais, como estacionamento gratuito e descontos em produtos.</li>
+                  </ul>
+                </p>
+              </p>
+              <a href="#" class="btn btn-dark">Preço: R$ 249,90/mês.</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="duvidas">
+        <div>
+          <h2>Ficou algum dúvida?</h2>
+          <div class="duvida">
+            <h3>
+              Quais são os horários de funcionamento da academia?
+            </h3>
+            <img class="img-people" src="build/images/arrow-down.svg" alt="Seta para baixo indicando expansão" />
+            <p class="paragrafo">
+              A BodyS funciona de <strong>segunda a sexta-feira</strong> das 06h às 22h, e aos sábados das 08h às 14h. Não abrimos aos domingos.
+            </p>
+          </div>
+          <div class="duvida">
+            <h3> Como posso cancelar meu plano de assinatura?</h3>
+            <img   src="build/images/arrow-down.svg" alt="Seta para baixo indicando expansão" />
+            <p class="paragrafo">
+              O cancelamento pode ser feito através do nosso site ou entrando em contato com a nossa equipe de atendimento ao cliente. Lembre-se que a solicitação deve ser feita com pelo menos 7 dias de antecedência do próximo pagamento.
+            </p>
+          </div>
+          <div class="duvida">
+            <h3>
+              Posso trocar de plano no meio do mês?
+            </h3>
+            <img   src="build/images/arrow-down.svg" alt="Seta para baixo indicando expansão" />
+            <p class="paragrafo">
+              Sim, você pode fazer a troca de planos no meio do mês, com um ajuste proporcional de valor, dependendo da diferença entre os planos.
+            </p>
+          </div>
+          <div class="duvida">
+            <h3>Quais são as formas de pagamento aceitas?</h3>
+            <img   src="build/images/arrow-down.svg" alt="Seta para baixo indicando expansão" />
+            <p class="paragrafo">
+              Aceitamos pagamentos via cartão de crédito, débito, boleto bancário e Pix. Também é possível pagar por transferência bancária em algumas condições.
+            </p>
+          </div>
+        </div>
+      </section>        
+      <footer class="bg-dark text-white pt-4 pb-2" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>
+                <img src="build/images/logo-academy.jpeg" width="50px" height="50px" alt="" class="rounded">
+              </h5>
+              <ul class="list-unstyled">
+                <li>
+                  <select class="rounded py-2 px-3">
+                    <option>
+                      English
+                    </option>
+                    <option selected>
+                      Português
+                    </option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Termos e Condições</h5>
+              <ul class="list-unstyled d-flex flex-wrap">
+                <li><a href="#" class="text-secondary mx-2">Termos e Condições de Uso</a></li>
+                <li><a href="#" class="text-secondary mx-2">Termos e Condições de Uso</a></li>
+                <li><a href="#" class="text-secondary mx-2">Termos e Condições de Uso</a></li>
+                <li><a href="#" class="text-secondary mx-2">Termos e Condições de Uso</a></li>
+                <li><a href="#" class="text-secondary mx-2">Termos e Condições de Uso</a></li>
+                <li><a href="#" class="text-secondary mx-2">Termos e Condições de Uso</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Formas de Pagamento</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <i class="fab fa-cc-mastercard"></i> MasterCard</li>
+                <li>
+                  <i class="fab fa-cc-amex"></i> Pix
+                </li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h5>Localização</h5>
+                <p>Endereço: Rua Exemplo, 123 - Nova Iguaçu - Rio de Janeiro</p>
+                <p>
+                  WhatsApp: <a href="#">(22) 98765-4321</a>
+                </p>
+                <p>
+                  Email:
+                  <a href="mailto:contato@bodyS.com">contato@bodyS.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="mb-0">
+                &copy; 2024 Academy e suas empresas afiliadas. Todos os direitos reservados.
+              </p>
+              <p class="small">
+                A programação do conteúdo esportivo varia de acordo com o plano. Para usar o serviço, é necessário ser assinante e ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade. O serviço é comercializado por Academy Ltda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./build/scripts/main.js"></script>
+  </body>
+</html>

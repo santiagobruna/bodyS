@@ -1,0 +1,1 @@
+window.sr=ScrollReveal({reset:!0}),sr.reveal(".area-1",{duration:3e3}),sr.reveal(".area-2",{rotate:{x:0,y:100,z:0},duration:3e3}),sr.reveal(".area-3",{duration:3e3});let elementosDuvida=document.querySelectorAll(".duvida");elementosDuvida.forEach(e=>{e.addEventListener("click",function(){e.classList.toggle("ativa")})});
