@@ -6,7 +6,7 @@
 }
 
 .hero {
-  background-image: url("/build/images/banner1.jpeg"); /* Substitua com o caminho da sua imagem */
+  background-image: url("../images/banner1.jpeg"); /* Substitua com o caminho da sua imagem */
   background-size: cover;
   background-position: center;
   height: 100vh; /* Define a altura como 100% da tela */

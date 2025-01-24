@@ -24,20 +24,4 @@ function comprimeJavascript() {
     .pipe(uglify())
     .pipe(gulp.dest("./build/scripts"));
 }
-exports.default = function () {
-  gulp.watch(
-    "./src/styles/*.scss",
-    { ignoreInitial: false },
-    gulp.series(compilaSass)
-  );
-  gulp.watch(
-    "./src/images/*",
-    { ignoreInitial: false },
-    gulp.series(comprimeImagens)
-  );
-  gulp.watch(
-    "./src/scripts/*.js",
-    { ignoreInitial: false },
-    gulp.series(comprimeJavascript)
-  );
-};
+exports.default =  gulp.parallel(compilaSass, comprimeImagens, comprimeJavascript);
