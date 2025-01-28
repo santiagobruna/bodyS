@@ -3,18 +3,20 @@
 @use "./components/hero";
 @use "./components/story";
 @use "./components/profile_section";
+@use "./components/plans";
 @use "./components/questions";
 @use "./components/footer";
 
 body {
   font-family: variables.$font;
   font-weight: 400;
-  background-color: #dddddd;
+  background-color: variables.$bgBody;
 }
 
 .header {
   &__logo {
-    width: 60px;
+    width: 70px;
+    border-radius: 10%;
   }
 }
 /* Responsividade para telas menores */

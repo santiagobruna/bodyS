@@ -14,9 +14,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color:variables.$white;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px variables.$shadow;
   width: 280px;
   padding: 20px;
   text-align: center;
@@ -27,7 +27,7 @@
 //   height: 100vh;
   padding: 40px 0;
   margin-bottom: 40px;
-  background-color: #fbfbfb;
+  background-color: variables.$bgPlans;
 }
 .profile-image img {
   width: 100px;
@@ -40,23 +40,23 @@
 /* Informações de perfil */
 .profile-info h2 {
   font-size: 1.8rem;
-  color: #333;
+  color:variables.$accentColor;
   margin-bottom: 10px;
 }
 
 .profile-info p {
   font-size: 1rem;
-  color: #666;
+  color: variables.$grayColor;
   line-height: 1.5;
 }
 
 .btn {
-  color: #fff;
-  background-color: #2a004e;
-  border: 1px solid #2a004e;
+  color:variables.$white;
+  background-color: variables.$bgButtons;
+  border: 1px solid  variables.$bgButtons;
   &:hover {
-    color: #fff;
-    background-color: #4f0b8a;
+    color: variables.$white;
+    background-color: variables.$hover;
   }
 }
 @media (max-width: 768px) {

@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: variables.$white;
 }
 @media (max-width: 768px) {
   .hero {

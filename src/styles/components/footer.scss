@@ -27,7 +27,7 @@
         display: block;
 
         &:hover {
-          color: variables.$corTextoSecundario;
+          color: variables.$footerColor;
         }
       }
     }
@@ -50,10 +50,10 @@ li, select {
     cursor: pointer;
     background-color: transparent;
     border: none;
-    color: variables.$corDeFundo;
+    color: variables.$BgFooter;
     height: 38px;
     option {
-      color: variables.$corDeFundo;
+      color: variables.$BgFooter;
     }
   }
 }

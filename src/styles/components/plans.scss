@@ -1,0 +1,18 @@
+@use 'variables';
+.plans-contain .card img {
+  opacity: 0.8; /* Define a opacidade inicial */
+  transition: opacity 0.3s ease-in-out; /* Suaviza a mudança de opacidade */
+}
+
+.plans-contain .card img:hover {
+  cursor: pointer;
+  opacity: 1; /* Altera para opacidade total quando o mouse passar */
+}
+.text-plans {
+    font-weight: bold;
+    color: variables.$bgButtons;
+}
+
+h5 {
+    text-transform: uppercase;
+}
