@@ -46,15 +46,15 @@ body {
     background-size: cover;
   }
   .story {
-    flex-direction: column; /* Coloca imagem e texto um abaixo do outro */
-    text-align: center; /* Centraliza o conteúdo */
+    flex-direction: column; 
+    text-align: center; 
     padding: 20px;
     margin-top: 20px;
   }
 
   .story__image {
-    margin-bottom: 15px; /* Espaçamento entre imagem e texto */
-    width: 100%; /* Imagem ocupa a largura total */
+    margin-bottom: 15px; 
+    width: 100%;
     height: auto; /* Mantém a proporção da imagem */
   }
 

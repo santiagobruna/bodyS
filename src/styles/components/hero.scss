@@ -1,9 +1,9 @@
 @use "variables";
 .hero {
-  background-image: url("../images/banner1.jpeg"); /* Substitua com o caminho da sua imagem */
+  background-image: url("../images/banner1.jpeg"); 
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Define a altura como 100% da tela */
+  height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +11,6 @@
 }
 @media (max-width: 768px) {
   .hero {
-    height: 50vh; /* Ajuste a altura do hero para metade da tela em dispositivos menores */
+    height: 50vh;
   }
 }
