@@ -32,7 +32,7 @@ const translations = {
     whatsapp: "WhatsApp: (22) 98765-4321",
     email: "Email: contato@bodyS.com",
     "footer-copyright":
-      "&copy; 2024 Academy and its affiliated companies. All rights reserved.",
+      "&copy; 2025 Developed Bruna Carla. All rights reserved.",
     "footer-notice":
       "The content programming varies according to the plan. To use the service, you must be a subscriber and over 18 years old. Content subject to availability. The service is sold by Academy Ltda.",
   },
@@ -47,7 +47,7 @@ const translations = {
     whatsapp: "WhatsApp: (22) 98765-4321",
     email: "Email: contato@bodyS.com",
     "footer-copyright":
-      "&copy; 2024 Academy e suas empresas afiliadas. Todos os direitos reservados.",
+      "&copy; 2025 Desenvolvido por Bruna Carla. Todos os direitos reservados.",
     "footer-notice":
       "A programação do conteúdo esportivo varia de acordo com o plano. Para usar o serviço, é necessário ser assinante e ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade. O serviço é comercializado por Academy Ltda.",
   },
