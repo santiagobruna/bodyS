@@ -32,7 +32,7 @@ const translations = {
     whatsapp: "WhatsApp: (22) 98765-4321",
     email: "Email: contato@bodyS.com",
     "footer-copyright":
-      "&copy; 2025 Developed Bruna Carla. All rights reserved.",
+      "&copy; 2025 Developed by Bruna Carla. All rights reserved.",
     "footer-notice":
       "The content programming varies according to the plan. To use the service, you must be a subscriber and over 18 years old. Content subject to availability. The service is sold by Academy Ltda.",
   },
